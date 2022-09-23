@@ -1,4 +1,4 @@
-package com.example.ecommerce.dao;
+package com.example.ecommerce.repository;
 
 import com.example.ecommerce.model.ProductCategory;
 import org.springframework.data.jpa.repository.JpaRepository;
