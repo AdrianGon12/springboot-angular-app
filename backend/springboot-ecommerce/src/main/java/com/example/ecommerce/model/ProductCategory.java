@@ -17,5 +17,6 @@ public class ProductCategory {
     private String categoryName;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "category")
+    @Transient
     private Set<Product> products;
 }
